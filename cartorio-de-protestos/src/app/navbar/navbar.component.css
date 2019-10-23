@@ -1,0 +1,52 @@
+.sidenav-container {
+  height: 100%;
+}
+
+.sidenav {
+  width: 200px;
+}
+
+
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.mat-toolbar-row, .mat-toolbar-single-row {
+  padding: 0 48px ;
+}
+
+.icon-cartorio {
+  padding: 0.2em;
+}
+
+.menu {
+  /*font-family: Roboto,"Helvetica Neue",sans-serif!important;
+  font-size: 16px;
+  font-weight: 500;*/
+  margin-left: auto;
+  display: inline;
+}
+
+@media (max-width: 400px){
+
+  .mat-toolbar-row, .mat-toolbar-single-row {
+     height: 100px;
+     width: 100%;
+     flex-direction: column;
+     align-items: center;
+     white-space: nowrap;
+  }
+}
+
+@media (max-width: 400px){
+
+  a.menu, .menu-botao {
+    flex-direction: inherit;
+    align-items: baseline;
+    white-space: nowrap;
+    margin: -5px -14px 0px -6px;
+  }
+}
