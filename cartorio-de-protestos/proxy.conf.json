@@ -1,0 +1,10 @@
+{
+
+     
+        "/cartorios*": {
+           "target": "http://www.pesquisaprotesto.com.br/serv/cartoriosparticipantes/rs",
+           "secure": false,
+           "logLevel": "debug"
+    }
+
+}

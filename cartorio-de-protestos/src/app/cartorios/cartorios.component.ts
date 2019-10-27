@@ -1,4 +1,11 @@
+import { Observable } from 'rxjs';
 import { Component, OnInit } from '@angular/core';
+
+import {MatTableDataSource} from '@angular/material/table';
+
+import { CartorioApiService } from './../shared/cartorio-api.service';
+
+
 
 @Component({
   selector: 'app-cartorios',
@@ -7,9 +14,24 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CartoriosComponent implements OnInit {
 
-  constructor() { }
+  
+  cartoriosParticipantes: Array<any>
+
+  constructor(private cartoriosAPI: CartorioApiService) { }
 
   ngOnInit() {
+    this.listar();
+  }
+
+   listar() {
+    this.cartoriosAPI.listar().subscribe(dados => this.cartoriosParticipantes = dados)
+  }
+
+  displayedColumns: string[] = ['position', 'name', 'weight', 'symbol'];
+  dataSource = new MatTableDataSource(this.cartoriosParticipantes);
+
+  applyFilter(filterValue: string) {
+    this.dataSource.filter = filterValue.trim().toLowerCase();
   }
 
 }
