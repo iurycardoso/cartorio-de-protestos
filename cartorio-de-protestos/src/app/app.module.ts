@@ -17,6 +17,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
 import { CartoriosComponent } from './cartorios/cartorios.component';
 import { ServicosComponent } from './servicos/servicos.component';
+import { CalculadoraComponent } from './calculadora/calculadora.component';
 
 
 
@@ -26,7 +27,8 @@ import { ServicosComponent } from './servicos/servicos.component';
     NavbarComponent,
     HomeComponent,
     CartoriosComponent,
-    ServicosComponent
+    ServicosComponent,
+    CalculadoraComponent
   ],
   imports: [
     BrowserModule,
