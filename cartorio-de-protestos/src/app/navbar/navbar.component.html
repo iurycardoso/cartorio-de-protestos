@@ -5,13 +5,14 @@
       <mat-icon class="icon-cartorio">account_balance</mat-icon>
       <span>Pesquise Cartório</span>
       <a class="menu">
-        <button class="menu-botao" mat-tab-label mat-ripple ng-star-inserted mat-button>Home</button>
-        <button class="menu-botao" mat-tab-label mat-ripple ng-star-inserted mat-button>Cartórios</button>
-        <button class="menu-botao" mat-tab-label mat-ripple ng-star-inserted mat-button>Serviços</button>
-        <button class="menu-botao" mat-tab-label mat-ripple ng-star-inserted mat-button>Contato</button>
-        <button class="menu-botao" mat-tab-label mat-ripple ng-star-inserted mat-button>Calculadora</button>
+        <button class="menu-botao" mat-tab-label mat-ripple ng-star-inserted mat-button routerLink="home">Home</button>
+        <button class="menu-botao" mat-tab-label mat-ripple ng-star-inserted mat-button routerLink="cartorios">Cartórios</button>
+        <button class="menu-botao" mat-tab-label mat-ripple ng-star-inserted mat-button routerLink="servicos">Serviços</button>
+        <button class="menu-botao" mat-tab-label mat-ripple ng-star-inserted mat-button routerLink="contato">Contato</button>
+        <button class="menu-botao" mat-tab-label mat-ripple ng-star-inserted mat-button routerLink="calculadora">Calculadora</button>
       </a>  
     </mat-toolbar>    
     <!-- Add Content Here -->
+    <router-outlet> </router-outlet>
   </mat-sidenav-content>
 </mat-sidenav-container>
