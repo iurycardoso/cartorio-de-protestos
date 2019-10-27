@@ -18,6 +18,7 @@ import { HomeComponent } from './home/home.component';
 import { CartoriosComponent } from './cartorios/cartorios.component';
 import { ServicosComponent } from './servicos/servicos.component';
 import { CalculadoraComponent } from './calculadora/calculadora.component';
+import { ContatoComponent } from './contato/contato.component';
 
 
 
@@ -28,7 +29,8 @@ import { CalculadoraComponent } from './calculadora/calculadora.component';
     HomeComponent,
     CartoriosComponent,
     ServicosComponent,
-    CalculadoraComponent
+    CalculadoraComponent,
+    ContatoComponent
   ],
   imports: [
     BrowserModule,
