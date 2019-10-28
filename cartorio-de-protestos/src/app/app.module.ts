@@ -14,6 +14,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { MatCardModule } from '@angular/material/card';
 import { MatTableModule } from '@angular/material/table';
 import {MatExpansionModule, MatAccordion} from '@angular/material/expansion';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
 
@@ -55,8 +56,9 @@ import { OrderPipe } from './cartorios/order.pipe';
     HttpClientModule,
     MatCardModule,
     MatTableModule,
-    MatExpansionModule
-    
+    MatExpansionModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

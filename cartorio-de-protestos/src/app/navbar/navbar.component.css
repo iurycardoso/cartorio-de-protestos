@@ -30,6 +30,10 @@
   display: inline;
 }
 
+.Pesquise {
+  margin: 10px 0px -3px 11px;
+}
+
 @media (max-width: 400px){
 
   .mat-toolbar-row, .mat-toolbar-single-row {

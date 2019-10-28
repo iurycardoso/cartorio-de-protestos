@@ -17,10 +17,7 @@ export class CartoriosComponent implements OnInit {
   constructor(private cartoriosAPI: CartorioApiService) { }
 
   ngOnInit() {
-    this.cartoriosAPI.listar().subscribe(
-      cartoriosParticipantes => this.cartoriosParticipantes = cartoriosParticipantes,
-
-    )
+    this.listar()
   }
 
    listar() {
