@@ -1,14 +1,14 @@
-<h1 align="center">Pesquise Cart�rio ??</h1>
+<h1 align="center">Welcome to Pesquise Cartório 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
 </p>
 
-> Projeto Pesquise Cart�rio foi desenvolvido como teste pr�tico para vaga de Front-end 
-> O layout deveria conter 5 p�ginas (Home, Listagem de Cart�rios, Servi�os, Contato, Calculadora, Utilizar t�cnicas de UI/UX e Boas Pr�ticas de Desenvolvimento
+> Projeto Pesquise Cartório foi desenvolvido como teste prático para vaga de Front-end 
+> O layout deveria conter 5 páginas (Home, Listagem de Cartórios, Serviços, Contato, Calculadora, Utilizar técnicas de UI/UX e Boas Práticas de Desenvolvimento
 
 > Lib utilizada: https://material.angular.io/
-> Lib utilizada: https://getbootstrap.com/
-
+> Lib utilizada: https://getbootstrap.com//
+>
 
 ## Install
 
@@ -30,13 +30,13 @@ npm run test
 
 ## Author
 
-?? **Iury De Moraes Cardoso**
+👤 **Iury De Moraes Cardoso**
 
 * Github: [@iurycardoso](https://github.com/iurycardoso)
 
 ## Show your support
 
-Give a ?? if this project helped you!
+Give a ⭐️ if this project helped you!
 
 ***
-_This README was generated with ?? by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
