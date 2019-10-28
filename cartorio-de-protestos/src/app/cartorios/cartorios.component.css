@@ -1,8 +1,8 @@
-table {
+mat-accordion {
     width: 100%;
   }
   
-  .mat-form-field {
+  .mat-accordion {
     font-size: 14px;
     width: 100%;
   }

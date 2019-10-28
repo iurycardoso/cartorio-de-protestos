@@ -13,7 +13,6 @@ export class CartorioApiService {
 
   constructor(private http: HttpClient) { }
 
-  /** metodo get para listar todos os personagens */
   listar() {
     return this.http.get<any[]>(`${this.cartoriosUrl}`)
   }

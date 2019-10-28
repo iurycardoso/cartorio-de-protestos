@@ -11,7 +11,10 @@ import { MatListModule } from '@angular/material/list';
 import { MatMenuModule } from '@angular/material/menu';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { HttpClientModule } from '@angular/common/http';
-import {MatCardModule} from '@angular/material/card';
+import { MatCardModule } from '@angular/material/card';
+import { MatTableModule } from '@angular/material/table';
+import {MatExpansionModule, MatAccordion} from '@angular/material/expansion';
+
 
 
 
@@ -23,7 +26,7 @@ import { CartoriosComponent } from './cartorios/cartorios.component';
 import { ServicosComponent } from './servicos/servicos.component';
 import { CalculadoraComponent } from './calculadora/calculadora.component';
 import { ContatoComponent } from './contato/contato.component';
-
+import { OrderPipe } from './cartorios/order.pipe';
 
 
 @NgModule({
@@ -34,7 +37,8 @@ import { ContatoComponent } from './contato/contato.component';
     CartoriosComponent,
     ServicosComponent,
     CalculadoraComponent,
-    ContatoComponent
+    ContatoComponent,
+    OrderPipe
   ],
   imports: [
     BrowserModule,
@@ -49,7 +53,10 @@ import { ContatoComponent } from './contato/contato.component';
     MatMenuModule,
     FlexLayoutModule,
     HttpClientModule,
-    MatCardModule
+    MatCardModule,
+    MatTableModule,
+    MatExpansionModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
