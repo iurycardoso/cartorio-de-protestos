@@ -1,0 +1,13 @@
+
+
+.Sobre {
+    padding: 2em;
+    position: relative;
+    overflow-x: hidden;
+    text-decoration: #fff;
+}
+body,
+html {
+  height: full-height;
+ 
+}
