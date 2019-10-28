@@ -1,1 +1,23 @@
-<p>calculadora works!</p>
+<div class="card">
+        <div class="card-header">CALCULADORA</div>
+        <div class="card-body">
+            <div class="form-group">
+                <div class="form-group d-flex flex-row">
+                    <input [(ngModel)]='numero1' type="number" name="numero1" class="form-control"  min="0" oninput="this.value = Math.abs(this.value)"> &nbsp;&nbsp;&nbsp;
+                    <input [(ngModel)]='numero2' type="number" name="numero2" class="form-control" min="0" oninput="this.value = Math.abs(this.value)">
+                </div>
+            </div>
+            <div class="">
+                <br>
+                <button class="btn btn-success" (click) = 'adicao()'> + </button>&nbsp;&nbsp;&nbsp;
+                <button class="btn btn-success" (click) = 'subtracao()'> - </button>&nbsp;&nbsp;&nbsp;
+                <button class="btn btn-success" (click) = 'multiplicacao()'> x </button>&nbsp;&nbsp;&nbsp;
+                <button class="btn btn-success" (click) = 'divisao()'> / </button>
+                <br><br><br>
+            </div>
+            <div class="card-footer">
+                <h6>{{resumo}}</h6>
+                <h4>Resultado: {{resultato}}</h4>
+            </div>
+        </div>
+    </div>
